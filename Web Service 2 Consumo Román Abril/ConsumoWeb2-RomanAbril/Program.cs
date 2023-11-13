@@ -18,6 +18,7 @@ namespace ConsumoWeb2_RomanAbril
             Console.WriteLine(respuesta.First().sCapitalCity);
             Console.WriteLine("Su divisa es: ");
             Console.WriteLine(respuesta.First().sCurrencyISOCode);
+            Console.Read();
         }
     }
 }
